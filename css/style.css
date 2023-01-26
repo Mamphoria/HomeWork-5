@@ -20,7 +20,7 @@ nav{
 
 li{
     display: inline-block;
-    margin-right: 83px;
+    margin-left: 83px;
     font-family: "Nerko One";
     font-weight: 400;
     font-size: 32px;
@@ -101,5 +101,40 @@ article{
     font-size: 32px;
     line-height: 42px;
     color: #1F6519;
-    margin-bottom: 137px;
+    /* margin-bottom: 137px; */
+}
+
+
+/* <<<Footer>>> */
+
+
+footer{
+    width: 1440px;
+    margin: 0 auto;
+    background-color: #1F6519;
+    padding: 77px 118px 81px 110px;
+}
+
+.footer_text1,
+.footer_text2{
+    display: inline-block;
+}
+
+.footer_text1{
+    margin-right: 617.53px;
+    font-family: 'PT Serif';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 26px;
+    color: #F4F4F1;
+}
+
+.footer_text2{
+    font-family: 'Nerko One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    color: #FFFFFF;
 }
